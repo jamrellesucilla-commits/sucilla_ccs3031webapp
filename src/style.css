@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+  color: #1b2b2a;
+  background: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+:root { --bg: #0f2227; --bg2: #10252a; --gold: #fdaa26; --muted: #a8adaf; }
